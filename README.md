@@ -4,6 +4,14 @@
 
 A lightweight CLI tool to estimate LLM prompt costs using real tokenization and model pricing.
 
+## Tools
+
+- Node.js (CLI tool)
+- JavaScript
+- JSON-based pricing config
+- Tokenization via tokenizer library
+- Cost modeling and math
+
 ## Features
 - Model-aware token counting (via tokenizer)
 - Input + output token cost estimation
