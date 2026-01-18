@@ -1,4 +1,4 @@
-# BACKGROUND
+# Background:
 
 ## llm-cost
 
@@ -10,6 +10,10 @@ A lightweight CLI tool to estimate LLM prompt costs using real tokenization and 
 - CLI usage with output token override
 - Pricing defined via JSON
 
+# Output:
+
+Displays token counts and estimated USD cost.
+
 ## Usage
 
 ```bash
@@ -17,6 +21,4 @@ npm install
 node index.js gpt-4o-mini "Write a haiku about developers learning to adopt ai faster."
 node index.js gpt-4o-mini "Write a haiku about developers learning to adopt ai faster." --out 50
 
-# OUTPUT
 
-Displays token counts and estimated USD cost.
