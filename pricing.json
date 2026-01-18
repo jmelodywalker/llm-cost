@@ -1,0 +1,7 @@
+{
+  "gpt-4o-mini": {
+    "input_per_1m": 0.15,
+    "output_per_1m": 0.60,
+    "encoding": "o200k_base"
+  }
+}
