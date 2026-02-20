@@ -2,7 +2,7 @@
 
 ## llm-cost
 
-A lightweight CLI tool to estimate LLM prompt costs using real tokenization and model pricing.
+A CLI tool to estimate LLM prompt costs using real tokenization and model pricing.
 
 ## Tools
 
