@@ -7,7 +7,7 @@ A CLI tool to estimate LLM prompt costs using real tokenization and model pricin
 ## Tools
 
 - Node.js (CLI tool)
-- JavaScript
+- TypeScript
 - JSON-based pricing config
 - Tokenization via tokenizer library
 - Cost modeling and math
@@ -26,7 +26,8 @@ Displays token counts and estimated USD cost.
 
 ```bash
 npm install
-node index.js gpt-4o-mini "Write a haiku about developers learning to adopt ai faster."
-node index.js gpt-4o-mini "Write a haiku about developers learning to adopt ai faster." --out 50
+npm run build
+node dist/index.js gpt-4o-mini "Write a haiku about developers learning to adopt ai faster."
+node dist/index.js gpt-4o-mini "Write a haiku about developers learning to adopt ai faster." --out 50
 
 
